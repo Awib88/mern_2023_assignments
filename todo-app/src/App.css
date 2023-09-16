@@ -1,0 +1,14 @@
+.done{
+    text-decoration: line-through;
+    font-style: italic;
+    color: blue;
+    font-size: large;
+    margin: 10px;
+    
+}
+
+.notDone{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+.wrapper.two {
+    font-size: 6rem;
+    font-family: "Play", sans-serif;
+    width:400px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    white-space: normal; ;
+    
+}
+.neon h2 {
+    margin: 1rem auto;
+    animation: neon 1s ease infinite;
+}
+@keyframes neon {
+    0%,
+    100% {
+        text-shadow: 0 0 10px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 2px #fed128, 2px 2px 2px #806914;
+        color: #f5efcb;
+    }
+    50% {
+        text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #40340a;
+        color: #eda0d3;
+    }
+}
